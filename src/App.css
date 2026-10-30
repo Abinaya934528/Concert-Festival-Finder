@@ -1,0 +1,15 @@
+/* VYBE Global App Styles */
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1.04);
+  }
+}
+
+.ambient-glow {
+  animation: pulseGlow 8s ease-in-out infinite;
+}
