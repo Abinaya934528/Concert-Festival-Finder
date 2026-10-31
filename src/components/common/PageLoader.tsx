@@ -16,3 +16,4 @@ export const PageLoader: React.FC = () => {
     </div>
   );
 };
+
